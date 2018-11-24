@@ -11,8 +11,8 @@ header {
 }
 
 body {
-  background-image: url("../imgs/background.jpg");
-  background-size: cover;
+  background-image: url("../imgs/matrix_cat.jpg");
+  background-size: 100%;
 }
 
 nav {
@@ -57,18 +57,66 @@ main {
   text-align: center;
   position: relative;
   top: 90px;
+  margin-bottom: 727px;
 }
 
 main h1 {
-  color: #0CFFF4;
+  color: #FFF;
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
   font-size: 70px;
   margin-top: 0px;
-  padding-top: 80px;
-  margin-bottom: 80px;
+  text-transform: uppercase;
+  background-color: rgba(51, 51, 51, .5)
+
+}
+
+.about {
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  margin-top: 0px;
+  text-align: center;
   text-transform: uppercase;
 }
+
+.about-container {
+  padding: 160px 30px;
+  background-color: rgba(51, 51, 51, .8);
+}
+
+.image-and-blurb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.blurb {
+  margin: auto auto;
+  width: 500px;
+}
+
+.blurb p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: #FFF;
+
+}
+
+#profile {
+  height: 480px;
+  width: auto;
+  border: 2px solid rgb(110, 51, 51);
+  margin-left: 150px;
+}
+#bacs-link {
+  text-decoration: none;
+  color: magenta;
+}
+
+
 
 footer {
   background-color: #333;
@@ -158,9 +206,6 @@ footer ul {
   height: 200px;
 }
 
-.supporting img {
-  height: 32px;
-}
 
 .supporting h2 {
   font-weight: 600;
