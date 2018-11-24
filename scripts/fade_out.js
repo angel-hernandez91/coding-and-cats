@@ -1,6 +1,6 @@
 $(function() {            
     var documentEl = $(document),
-        fadeElem = $('.image-and-blurb');
+        fadeElem = $('.fade-out');
     
     
     documentEl.on('scroll', function() {
