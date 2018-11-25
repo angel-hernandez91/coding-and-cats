@@ -23,7 +23,7 @@
 					<ul>
 						<li> <a class='hvr-float-shadow' href="/coding-and-cats"> Home </a> </li>
 						<li> <a class='hvr-float-shadow' href="#about"> About </a></li>
-						<li> <a class='hvr-float-shadow' href="#resume"> Resume </a></li>
+						<li> <a class='hvr-float-shadow' href="#resume"> R&eacute;sum&eacute; </a></li>
 						<li> <a class='hvr-float-shadow' href="./blog/index.html"> Blog </a></li>
 						<li> <a class='hvr-float-shadow' href="./cats/index.html"> Cats </a></li>
 						<li> <a class='hvr-float-shadow' href="./code/index.html"> Code </a></li>
@@ -62,8 +62,8 @@
 
 		</div>
 		<div class="resume-container" id="resume" data-aos="fade-up">
-			<h2 class="resume" data-aos="fade-right" data-aos-duration="1000"> Resume</h2>
-			<div class="education fade-out" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom" >
+			<h2 class="resume" data-aos="fade-right" data-aos-duration="1000"> R&eacute;sum&eacute;</h2>
+			<div class="resume-section fade-out" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom" >
 				<h3> Education </h3>
 				<hr>
 				<div class="education-and-logos">
@@ -114,36 +114,95 @@
 
 				</div>
 			</div>
-			<div class="education fade-out" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
+			<div class="resume-section fade-out" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
 				<h3> Skills </h3>
 				<hr>
-				<div class="skills-text">
-					<p>Programming Languages</p>
-					<ul> 
-						<li> <strong>Proficient</strong>: Python, SQL, SAS </li>
-						<li> <strong>Novice</strong>: HTML, CSS, JavaScript, Bash, VBA
-					</ul>
-					<p>Python Libraries</p>
-					<ul> 
-						<li> <strong>Proficient</strong>: PySpark, Pandas, Requests, Flask, Sqlite, Dash</li>
-						<li> <strong>Novice</strong>: SlackClient, Paramiko, Multiprocessing, Multithreading
-					</ul>
-					<p>Rest APIs</p>
+				<div class="skills-and-logos">
+					<div class="skills-text">
+						<p>Programming Languages</p>
 						<ul> 
-							<li> <strong>Proficient</strong>: Databricks, Slack, Alation,</li>
-							<li> <strong>Novice</strong>: S3, AWS, Snaplogic
+							<li> <strong>Proficient</strong>: Python, SQL, SAS </li>
+							<li> <strong>Novice</strong>: HTML, CSS, JavaScript, Bash, VBA </li>
 						</ul>
-					<p>Software and Applications</p>
-					<ul> 
-						<li> <strong>Proficient</strong>: Spark/Databricks, Git, Redshift, Tableau, Snaplogic, AWS, Alation, Excel, Linux</li>
-						<li> <strong>Novice</strong>: Jenkins, Airflow, Linkurious, Confluence, EXASOL, TigerGraph (Backend), Teradata, Salesforce
-					</ul>
-
-
+						<p>Python Libraries</p>
+						<ul> 
+							<li> <strong>Proficient</strong>: PySpark, Pandas, Requests, Flask, Sqlite, Dash</li>
+							<li> <strong>Novice</strong>: SlackClient, Paramiko, Multiprocessing, Multithreading </li>
+						</ul>
+						<p>Rest APIs</p>
+							<ul> 
+								<li> <strong>Proficient</strong>: Databricks, Slack, Alation </li>
+								<li> <strong>Novice</strong>: S3, AWS, Snaplogic </li>
+							</ul>
+						<p>Software and Applications</p>
+						<ul> 
+							<li> <strong>Proficient</strong>: Spark/Databricks, Git, Redshift, Tableau, Snaplogic, AWS, Alation, Excel, Linux </li>
+							<li> <strong>Novice</strong>: Jenkins, Airflow, Linkurious, Confluence, EXASOL, TigerGraph (Backend), Teradata, Salesforce </li>
+						</ul>
+					</div>
+					<div class="skill-logos">
+						<div id="skill-logo1">
+							<img id="python-logo" src="./imgs/logos/python.png" alt="python">
+							<img id="spark-logo" src="./imgs/logos/spark.png" alt="spark">
+						</div>
+						<div id="skill-logo2">
+							<img id="redshift-logo" src="./imgs/logos/redshift.png" alt="redshift">
+							<img id="databricks-logo" src="./imgs/logos/databricks.png" alt="databricks">
+						</div>
+						<div id="skill-logo3">
+							<img id="dash-logo" src="./imgs/logos/dash.png" alt="dash">
+							<img id="git-logo" src="./imgs/logos/git.png" alt="git">
+						</div>
+					</div>
 				</div>
 			</div>
 
+			<div class="resume-section fade-out" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
+				<h3> Experience </h3>
+				<hr>
+				<div class="experience">
+					<div class="name-and-logo">
+						<div class="job">
+							<div class="job-name">
+								<p>Beghou Congsulting, Inc - Data Engineer </p>
+							</div>
+
+							<div class="job-dates">
+								<p>June 2016 - Current</p>
+							</div>
+						</div>
+						<div> 
+							<img id="beghou" src="./imgs/logos/beghou.png" alt='beghou'>
+						</div>
+
+					</div>
+					<p class="job-task"> Data Warehousing </p>
+						<ul>
+							<li> Merged disparate and inefficient systems by developing streamlined and automated data ingestion pipelines to migrate terabytes of client data on an ongoing basis using Python, SQL, SnapLogic, and Databricks </li>
+							<li> Developed quality control and logging processes to monitor client data during the ingestion process using Python and SQL </li>
+							<li> Enchanced client data ingestion processes and improved workflow using  Alation, Jenkins, AWS, and Databricks REST APIs </li>
+							<li> Automated the archival of client data from SFTP servers into S3 by via Python and the AWS CLI </li>
+						</ul>
+					<p class="job-task"> Technology Support </p>
+						<ul>
+							<li> Supported essential client day-to-day operations by managing 10+ Linux Servers and 3 Windows Servers running on AWS EC2 instannces </li>
+							<li> Maintained and optimized a Redshift cluster by standardizing schema and table naming conventions, tuning tables, configuring Work Load Management, and automating cluster maintenance with Python, SQL, and SnapLogic</li>
+							<li>Managed and maintained permissions and security for S3 Buckets, SnapLogic, and Redshift</li>
+						</ul>
+					<p class="job-task"> Technology Support </p>
+						<ul>
+							<li> Supported essential client day-to-day operations by managing 10+ Linux Servers and 3 Windows Servers running on AWS EC2 instannces </li>
+							<li> Maintained and optimized a Redshift cluster by standardizing schema and table naming conventions, tuning tables, configuring Work Load Management, and automating cluster maintenance with Python, SQL, and SnapLogic</li>
+							<li>Managed and maintained permissions and security for S3 Buckets, SnapLogic, and Redshift</li>
+						</ul>
+
+				</div>
+			</div>
 		</div>
+
+
+
+
 		<footer>
 			<div class="container">
 				<!-- Icons from flaticon.com -->

@@ -33,7 +33,7 @@ nav {
 .name {
 	font-family: 'Raleway';
 	color: #FFF;
-  font-weight: 600;
+  font-weight: 0;
   padding-left: 30px;
   display: inline;
   float: left;
@@ -146,18 +146,11 @@ main h1 {
   text-transform: uppercase;
 }
 
-.education {
+.resume-section {
   padding-left: 30px;
 }
 
 .education-text {
-  padding-left: 20px;
-  width: 45%;
-}
-.skills-text p {
-  font-weight: 600;
-}
-.skills-text {
   padding-left: 20px;
   width: 45%;
 }
@@ -180,7 +173,7 @@ main h1 {
 }
 
 
-.education h3 {
+.resume-section h3 {
   color: #FFF;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
@@ -190,7 +183,7 @@ main h1 {
   text-transform: uppercase;
 }
 
-.education p, li{
+.resume-section p, li{
   color: #FFF;
   font-size: 14px;
   text-align: left;
@@ -210,12 +203,73 @@ main h1 {
   width: auto;
 }
 
+.skills-text p {
+  font-weight: 600;
+}
+
+.skills-text {
+  padding-left: 20px;
+  width: 45%;
+}
+
+.skills-and-logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-logos img {
+  height: 128px;
+  width: auto;
+  padding-right: 90px;
+}
+#skill-logo1, #skill-logo2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#skill-logo3 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+#spark-logo, #dash-logo {
+  height: 84px;
+  width: auto;
+}
+.experience {
+  padding-left: 30px;
+}
+.job {
+  display: flex;
+  justify-content: space-between;
+  width: 46%;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.name-and-logo {
+  display:flex;
+  justify-content: space-between;
+}
+
+.job-task {
+  font-weight: 600;
+}
+
+#beghou {
+    padding-right: 150px;
+
+
+}
+
 .ico {
   height: 32px;
   width: auto;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 footer {
   background-color: #333;
   color: #fff;
