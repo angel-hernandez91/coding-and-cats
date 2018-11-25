@@ -90,11 +90,11 @@ main h1 {
 }
 
 .about-container {
-  padding: 160px 30px;
+  padding: 110px 30px;
   background-color: rgba(51, 51, 51, .9);
   position: relative;
-  margin-bottom: 809px;
-  height: 490px;
+  margin-bottom: 409px;
+  /*height: 450px;*/
   z-index: 5;
 }
 
@@ -130,7 +130,7 @@ main h1 {
 }
 
 .resume-container {
-  padding: 160px 30px;
+  padding: 200px 30px;
   background-color: rgba(51, 51, 51, .9);
   position: relative;
 
@@ -238,7 +238,7 @@ main h1 {
   width: auto;
 }
 .experience {
-  padding-left: 30px;
+  padding-left: 25px;
 }
 .job {
   display: flex;
