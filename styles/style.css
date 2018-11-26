@@ -23,6 +23,14 @@ body {
 
 }
 
+.cats-intro {
+  background-image: url("../imgs/cats/fry-nibbler02.jpeg");
+  background-size: cover;
+  background-position: 0px -220px;
+  height: 850px;
+  width: auto;
+}
+
 nav {
   margin: 0;
   padding-right: 30px;
@@ -33,7 +41,6 @@ nav {
 .name {
 	font-family: 'Raleway';
 	color: #FFF;
-  font-weight: 0;
   padding-left: 30px;
   display: inline;
   float: left;
@@ -50,14 +57,14 @@ nav li {
   display: inline;
   color: #FFFFFF;
   font-family: 'Raleway', sans-serif;
-  font-weight: 600;
   width: 100%;
   text-align: right;
 }
 
 li a {
 	text-decoration: none;
-	color: #FFFFFF;
+	color: #FFF;
+  font-weight: 900;
   padding: 0 10px;
 }
 
@@ -75,7 +82,7 @@ main h1 {
   font-size: 70px;
   margin-top: 0px;
   text-transform: uppercase;
-  padding-top: 460px;
+  padding-top: 100px;
   /*background-color: rgba(51, 51, 51, .9)*/
 }
 
@@ -90,7 +97,7 @@ main h1 {
 }
 
 .about-container {
-  padding: 110px 30px;
+  padding: 100px 30px;
   background-color: rgba(51, 51, 51, .9);
   position: relative;
   margin-bottom: 409px;
@@ -130,7 +137,7 @@ main h1 {
 }
 
 .resume-container {
-  padding: 200px 30px;
+  padding: 100px 30px;
   background-color: rgba(51, 51, 51, .9);
   position: relative;
 
@@ -304,79 +311,6 @@ footer ul {
   text-align: center;
 }
 
-.jumbotron {
-  height: 800px;
-  background-image: url("http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.btn-main {
-  background-color: #333;
-  color: #fff;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  letter-spacing: 1.3px;
-  padding: 16px 40px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.btn-default {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 10px;
-  letter-spacing: 1.3px;
-  padding: 10px 20px;
-  text-decoration: none;
-  text-transform: uppercase;  
-  margin-bottom: 20px;      
-}
-
-.supporting {
-  padding-top: 80px;
-  padding-bottom: 100px;
-}
-
-.supporting .col {
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
-  display: inline-block;
-  width: 200px;
-  height: 200px;
-}
-
-
-.supporting h2 {
-  font-weight: 600;
-  font-size: 23px;
-  text-transform: uppercase;
-}
-
-.supporting p {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  padding: 0 20px;
-  margin-bottom: 20px;
-}
-
-.supporting a {
-  background-color: white;
-  color: #333333;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 12px;
-  letter-spacing: 1.3px;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 2px solid #333333; 
-}
 
 
 @media (max-width: 500px) {
