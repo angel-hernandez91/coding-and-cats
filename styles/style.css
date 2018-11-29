@@ -60,7 +60,7 @@ nav li {
   text-align: right;
 }
 
-li a {
+li a, .dropbtn {
 	text-decoration: none;
 	color: #FFF;
   font-weight: 900;
@@ -313,8 +313,8 @@ footer ul {
 /*.navbar {
     overflow: hidden;
     background-color: #333;
-    font-family: Arial, Helvetica, sans-serif;
-}*/
+    font-family:  sans-serif;
+}
 
 .navbar a {
     float: left;
@@ -324,13 +324,13 @@ footer ul {
     padding: 14px 16px;
     text-decoration: none;
 }
-
-.dropdown-button {
+*/
+/*.dropdown-button {
     float: left;
     overflow: hidden;
 }
-
-.dropdown-button .dropbtn {
+*/
+/*.dropdown-button .dropbtn {
     cursor: pointer;
     font-size: 16px;    
     border: none;
@@ -340,17 +340,22 @@ footer ul {
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+
+}*/
+
+.dropdown-button {
+  top: 50px !important;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-    background-color: red;
+    /*background-color: red;*/
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
