@@ -3280,7 +3280,7 @@ fieldset:disabled a.btn {
     margin-top: .5rem
 }
 
-input[type=button].btn-block,
+/*input[type=button].btn-block,*/
 input[type=reset].btn-block,
 input[type=submit].btn-block {
     width: 100%
@@ -5614,13 +5614,13 @@ tbody.collapse.show {
     cursor: pointer
 }
 
-button.close {
+/*button.close {
     padding: 0;
     background-color: transparent;
     border: 0;
     -webkit-appearance: none
 }
-
+*/
 .modal-open {
     overflow: hidden
 }
