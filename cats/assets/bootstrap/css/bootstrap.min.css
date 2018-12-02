@@ -60,7 +60,7 @@ aside,
 dialog,
 figcaption,
 figure,
-footer,
+/*footer,*/
 header,
 hgroup,
 main,
@@ -442,7 +442,7 @@ h6 {
 hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    border: 0;
+    /*border: 0;*/
     border-top: 1px solid rgba(0, 0, 0, .1)
 }
 
@@ -6267,7 +6267,7 @@ tbody.collapse.show {
     list-style: none
 }
 
-.carousel-indicators li {
+/*.carousel-indicators li {
     position: relative;
     -webkit-box-flex: 0;
     -ms-flex: 0 1 auto;
@@ -6278,7 +6278,7 @@ tbody.collapse.show {
     margin-left: 3px;
     text-indent: -999px;
     background-color: rgba(255, 255, 255, .5)
-}
+}*/
 
 .carousel-indicators li::before {
     position: absolute;

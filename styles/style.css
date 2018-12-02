@@ -268,39 +268,40 @@ main h1 {
 
 
 }
-.mbr-gallery-row {
-  box-sizing:border-box !important;
-}
+
 
 .ico, .icon {
-  height: 32px;
+  height: 40px;
   width: auto;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-footer {
+
+
+footer, .cats-footer {
   background-color: #333;
   color: #fff;
-  position: fixed;
+  position: relative;
   z-index: 10;
   padding-top: 10px;
   bottom: 0px;
   width: 100%;
+  height: 60px;
 }
 
-footer li {
+footer li, .cats-footer li {
   text-decoration: none;
   color: #FFFFFF;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 1rem;
   display: inline-block;
-  width: 80px;
+  width: 100px;
 
 }
 
-footer ul {
+footer ul, .cats-footer ul {
 	margin: 0 auto;
 	vertical-align: middle;
 }
