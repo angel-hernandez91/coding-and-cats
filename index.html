@@ -10,7 +10,7 @@
 
 		<script src="./scripts/fade_out.js" type="text/javascript"></script>
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 
 	<body>
@@ -21,17 +21,65 @@
 				</p>
 				<nav>
 					<ul>
-						<li> <a class='hvr-float-shadow' href="/coding-and-cats"> Home </a> </li>
-						<li> <a class='hvr-float-shadow' href="#about"> About </a></li>
-						<li> <a class='hvr-float-shadow' href="#resume"> Resume </a></li>
-						<li> <a class='hvr-float-shadow' href="./blog/index.html"> Blog </a></li>
-						<li> <a class='hvr-float-shadow' href="./cats/index.html"> Cats </a></li>
-						<li> <a class='hvr-float-shadow' href="./code/index.html"> Code </a></li>
-					</ul>
+						<li><a class='hvr-float-shadow' href="./index.html"> Home </a> </li>
+						<li class="dropdown-button">
+			    			<a class="dropbtn hvr-float-shadow" onclick="myFunction()">About
+			      				<i class="fa fa-caret-down"></i>
+			    			</a>
+						    <div class="dropdown-content" id="myDropdown">
+						     	<a href="./index.html#about">Angel</a>
+						     	<a href="./cats/index.html#about-nibbler">Nibbler</a>
+						     	<a href="./cats/index.html#about-fry">Fry</a>
+						    </div>
+						</li>
+						<li><a class='hvr-float-shadow' href="./index.html#resume"> Resume </a></li>
+						<li><a class='hvr-float-shadow' href="./blog/index.html"> Blog </a></li>
+						<li><a class='hvr-float-shadow' href="./cats/index.html"> Cats </a></li>
+						<li><a class='hvr-float-shadow' href="./code/index.html"> Code </a></li>
+				  	</li>
+				  </ul>
+					<!-- <ul>
+						<li> <a class='hvr-float-shadow' href="../index.html"> Home </a> </li>
+						<li> 
+							<div class="dropdown-button">
+				    			<button class="dropbtn" onclick="myFunction()">About
+				      				<i class="fa fa-caret-down"></i>
+				    			</button>
+							    <div class="dropdown-content" id="myDropdown">
+							      <a href="../index.html#about">Angel</a>
+							      <a href="#about-nibbler">Nibbler</a>
+							      <a href="#about-fry">Fry</a>
+							    </div>
+							</div>
+
+						</li>
+						<li> <a class='hvr-float-shadow' href="../index.html#about"> About </a></li>
+						<li> <a class='hvr-float-shadow' href="../index.html#resume"> Resume </a></li>
+						<li> <a class='hvr-float-shadow' href="../blog/index.html"> Blog </a></li>
+						<li> <a class='hvr-float-shadow' href="../cats/index.html"> Cats </a></li>
+						<li> <a class='hvr-float-shadow' href="../code/index.html"> Code </a></li>
+					</ul> -->
 				</nav>
 			</div>
 		</header>
-		
+		<script>
+			/* When the user clicks on the button, 
+			toggle between hiding and showing the dropdown content */
+			function myFunction() {
+			    document.getElementById("myDropdown").classList.toggle("show-menu");
+			}
+
+			// Close the dropdown if the user clicks outside of it
+			window.onclick = function(e) {
+			  if (!e.target.matches('.dropbtn')) {
+			  	console.log('This Ran')
+			    var myDropdown = document.getElementById("myDropdown");
+			      if (myDropdown.classList.contains('show-menu')) {
+			        myDropdown.classList.remove('show-menu');
+			      }
+			  }
+			}
+		</script>
 
 		<main>
 			<div class="intro" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
@@ -52,7 +100,7 @@
 				<div class="blurb">
 					<p> My name is Angel Hernandez and I like to do beep boop on the computer. I am a Data Engineer at Beghou Consulting, where my work focuses primarly on developing data pipelines, unifying data analytics and ingestion, and Python / PySpark development for Beghou Consulting's cloud transition. </p>
 
-					<p> As you can probably tell I love cats. They are God's perfect killing machines and I love that we've turned them into fur potatoes that we pick up, tease, and dress up. I have two of these adorable fur potatoes, Nibber and Fry, who were both adopted from <a id="bacs-link" href="http://friendsofbacs.org"> BACS </a> </p>
+					<p> As you can probably tell I love cats. They are God's perfect killing machines and I love that we've turned them into fur potatoes that we pick up, tease, and dress up. I have the privledge of owning two of these adorable fur potatoes, Nibber and Fry, who were both adopted from <a id="bacs-link" href="http://friendsofbacs.org"> BACS </a> </p>
 
 					<p> I have always been interested in Programming and Computer Science ever since I learned how load Space Invaders from an 8in Floppy Disk on early 90s MS-DOS machine when I was 8 years old. Yes, that's not programming, but I felt like Neo in that instant. I have never been the best at it, but some how I've managed to make a living from it. Outside of work I like to spend my time goofing around on different projects ranging from a Raspberry Pi Home Server to creating Python packages for PyPi. Recently, I have decided to dabble in a little Web Development after several work related projects that utilized Flask and Dash by Plotly. And so as a result, we now have Coding and Cats!
 					</p>

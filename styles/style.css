@@ -268,8 +268,11 @@ main h1 {
 
 
 }
+.mbr-gallery-row {
+  box-sizing:border-box !important;
+}
 
-.ico {
+.ico, .icon {
   height: 32px;
   width: auto;
   padding-top: 10px;
@@ -330,18 +333,18 @@ footer ul {
     overflow: hidden;
 }
 */
-/*.dropdown-button .dropbtn {
+.dropdown-button .dropbtn {
     cursor: pointer;
-    font-size: 16px;    
+    /*font-size: 16px;    */
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    /*padding: 14px 16px;*/
     background-color: inherit;
     font-family: inherit;
     margin: 0;
 
-}*/
+}
 
 .dropdown-button {
   top: 50px !important;
