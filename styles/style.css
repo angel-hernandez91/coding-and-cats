@@ -60,7 +60,7 @@ nav li {
   text-align: right;
 }
 
-li a, .dropbtn {
+nav li a, .dropbtn {
 	text-decoration: none;
 	color: #FFF;
   font-weight: 900;
@@ -268,33 +268,38 @@ main h1 {
 
 #beghou {
     padding-right: 150px;
-
-
 }
 
-.blog-main {
-  display: flex;
-}
-
-.side-bar {
-
-  background-color: rgba(51, 51, 100, 0.5);
-  width: 20%;
-  color: #FFF;
-  
+.post-container {
+  color: #fff;
   font-family: 'Raleway', sans-serif;
 
 }
 
-.side-bar p {
-  padding-left: 10px;
-}
 
 .ico, .icon {
   height: 40px;
   width: auto;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.project-overview {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.project-overview ul, .post-collection {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-overview h5 {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+
 }
 
 
