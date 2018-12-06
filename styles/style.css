@@ -67,6 +67,11 @@ nav li a, .dropbtn {
   padding: 0 10px;
 }
 
+.post-collection li a {
+  text-decoration: none;
+  color: #fff;
+}
+
 main {
   text-align: center;
   position: relative;
