@@ -136,6 +136,7 @@ main h1 {
   width: auto;
   border: 2px solid rgb(110, 51, 51);
   margin-left: 150px;
+  max-width: 100%;
 }
 
 #bacs-link {
@@ -411,7 +412,7 @@ footer ul, .cats-footer ul {
     display: block;
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 1200px) {
   main h1 {
     font-size: 50px;
     padding: 0 40px;
@@ -419,5 +420,37 @@ footer ul, .cats-footer ul {
 
   .supporting .col {
     width: 100%;
+  }
+  
+  .image-and-blurb {
+    display: inline;      
+
+  }
+  .blub {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-container {
+    background-color: rgba(51, 51, 51, .9);
+
+    margin-bottom: 200px;
+    background-size: 100%;
+  }
+  .profile-img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #profile {
+    display: inline;
+    position: relative;
+    border: 2px solid rgb(110, 51, 51);
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
   }
 }
