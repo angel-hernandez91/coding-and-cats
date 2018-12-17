@@ -439,10 +439,8 @@ footer ul, .cats-footer ul {
     font-size: 70px;
     margin-top: 0px;
     text-transform: uppercase;
-    padding-top: 200px;
+    padding-top: 100px;
   }
-
-
 
   .supporting .col {
     width: 100%;
@@ -558,7 +556,25 @@ footer ul, .cats-footer ul {
       padding-right: 150px;
 }
 
+  .intro {
+    /*background-image: url("../imgs/matrix_cat.jpg");*/
+    background-image: url("../imgs/backgrounds/fry-code.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
 
+  }
 
+  .cats-intro {
+    background-image: url("../imgs/cats/fry-nibbler08.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  main {
+    text-align: center;
+    position: relative;
+    top: 77px;
+    margin-bottom: 50px;
+  }
 
 }
