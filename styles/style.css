@@ -148,7 +148,7 @@ main h1 {
   height: 480px;
   width: auto;
   border: 2px solid rgb(110, 51, 51);
-  margin-left: 150px;
+  /*margin-left: 150px;*/
   /*max-width: 100%;*/
 }
 
@@ -428,6 +428,25 @@ footer ul, .cats-footer ul {
 
 .show-menu {
     display: block;
+}
+
+@media screen and (max-width: 480px) {
+  .profile-img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  #profile {
+    height: auto;
+    width: 100%;
+    border: 2px solid rgb(110, 51, 51);
+    /*margin-left: 150px;*/
+    /*max-width: 100%;*/
+  }
+
 }
 
 @media screen and (max-width: 1200px) {
