@@ -540,9 +540,13 @@ footer ul, .cats-footer ul {
   #beghou {
       display: none;
   }
+  .resume-section {
+  padding-left: 0;
+}
+
 
   .education-text {
-    padding-left: 20px;
+    padding-left: 0px;
     width: 100%;
   }
 
@@ -553,10 +557,13 @@ footer ul, .cats-footer ul {
 
 
   .skills-text {
-    padding-left: 20px;
+    padding-left: 0;
     width: 100%;
   }
 
+  .experience {
+  padding-left: 0;
+}
 
   .skill-logos {
     height: 128px;
@@ -576,9 +583,9 @@ footer ul, .cats-footer ul {
     font-weight: 600;
   }
 
-  #beghou {
+/*  #beghou {
       padding-right: 150px;
-}
+}*/
 
   .intro {
     /*background-image: url("../imgs/matrix_cat.jpg");*/
