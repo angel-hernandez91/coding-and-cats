@@ -431,6 +431,18 @@ footer ul, .cats-footer ul {
 
 
 @media screen and (max-width: 991px) {
+/*  .nav-dropdown {
+    text-align: center; 
+    overflow: hidden !important;
+  }
+  .navbar-nav {
+    text-align: center; 
+    overflow: hidden !important;
+  }*/
+  #navbarSupportedContent {
+    text-align: center; 
+    overflow: hidden !important;
+  }
   .dropdown-content {
      
       position: relative;
