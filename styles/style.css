@@ -369,27 +369,7 @@ footer ul, .cats-footer ul {
   text-align: center;
 
 }
-/*Test Code*/
-/*.navbar {
-    overflow: hidden;
-    background-color: #333;
-    font-family:  sans-serif;
-}
 
-.navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-*/
-/*.dropdown-button {
-    float: left;
-    overflow: hidden;
-}
-*/
 .dropbtn {
     cursor: pointer;
     /*font-size: 16px;    */
@@ -399,7 +379,9 @@ footer ul, .cats-footer ul {
     /*padding: 14px 16px;*/
     background-color: inherit;
     font-family: inherit;
-    /*margin: 0;*/
+    margin: 0;
+    padding:0;
+    border: 0;
     text-align: center;
     /*margin-top: -24px;*/
 
@@ -416,17 +398,31 @@ footer ul, .cats-footer ul {
 }
 
 .dropdown-content a {
-    float: none;
+    /*float: none;*/
     color: black;
     /*padding: 12px 16px;*/
     text-decoration: none;
-    display: block;
-    text-align: left;
+    /*display: block;*/
+    /*text-align: left;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*padding: 0.7rem 0;*/
 }
+/*
+ .nav-item-drop .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 0 !important;
+    margin: 0rem 0.65rem !important;
+}
+*/
+
 
 .dropdown-content a:hover {
     background-color: #ddd;
-    
+
 }
 
 .show-menu {
