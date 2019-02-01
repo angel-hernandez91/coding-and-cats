@@ -167,6 +167,15 @@ main h1 {
  
   /*max-width: 100%;*/
 }
+.blog-img {
+  height: 480px;
+  display: block;
+  width: auto;
+  border: 2px solid rgb(110, 51, 51);
+  margin-right: auto;
+  margin-left: auto;
+
+}
 
 #bacs-link {
   text-decoration: none;
