@@ -168,7 +168,9 @@ main h1 {
   /*max-width: 100%;*/
 }
 .blog-img {
-  height: 480px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 350px;
   display: block;
   width: auto;
   border: 2px solid rgb(110, 51, 51);
