@@ -537,7 +537,7 @@ footer ul, .cats-footer ul {
       position: relative;
       text-align: center;
       background-color: rgb(211,211,211);
-      width: 1000px;
+      width: 100%;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
       z-index: 1;
   }

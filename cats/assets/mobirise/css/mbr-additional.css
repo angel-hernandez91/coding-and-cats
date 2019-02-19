@@ -1469,7 +1469,7 @@ body {
   justify-content: flex-end;
   -webkit-justify-content: flex-end;
   padding-right: 5rem;
-  width: auto;
+  width: 100%;
 }
 .cid-qTkzRZLJNu .navbar-toggleable-sm .navbar-collapse .navbar-nav {
   flex-wrap: wrap;
