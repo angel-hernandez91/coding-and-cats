@@ -182,18 +182,60 @@
 			<p data-aos="fade-right" data-aos-duration="1000"> <em>Updated: February 23, 2019 </em></p>
 			<div class="blog-post">
 				<p class="fade-out-dep" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom"> 
-				Coding and Cats has seen a lot of updates over the past two weeks. There was definitely some struggle once I noticed the website on mobile had a lot of issues. Even as I am writing this I am finding small bugs here and there regarding sizing and layout. If had to do this all over again I would have definitely put mobile first design first. That being said, I'm very happy with how the website is currently coming along. Now there are features like a hamburger menu, dynamic sizing of text, images, and the footer. Incorporating responsive design required a lot of research and careful consideration of how elements should be laid out. I became very familiar with media queries, which handle breakpoints thats could not be resolved using responsive design. The resume section in particular removes images when viewed on mobile. I made the decision to do this because on mobile the images would just look awkward and washout the the main elements of the resume. 
-				</p>
-				<p class="fade-out-dep" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
-				All that being said, there was a lot of code refactoring that needed be done. In some cases fixing one issue caused other issues down the line. I initially made the mistake of thinking about desktop only, and didn't even consider different desktop sizing. Thus, there were a lot of fixed margins, padding, and sizing that needed to be remediated. The introduction of additional libraries caused name collisions in some cases and CSS styles were being overwritten by Bootstrap scripts. One such library was the Bootstrap library, which is amazing for things like photo galleries and hamburger menus. However, it has a lot of elements that have <code> !important </code> tags, which made things frustrating. In addition, to all of these, there were also changes that were made at the global level which messed with my overall layout. Tracking them all down trying to find the different stylesheets that controlled things like the menu, footer, and list items proved to be tedious, but overall helped increase my understanding of CSS, improve my layout, and make everything flow more smoothly.
+				Coding and Cats has seen a lot of updates over the past two weeks. There was definitely some struggle once I noticed the website on mobile had a lot of issues. Even as I am writing this I am finding small bugs here and there regarding sizing and layout. If had to do this all over again I would have definitely put mobile first design first. That being said, I'm very happy with how the website is currently coming along. Now there are features like a hamburger menu, dynamic sizing of text, images, and the footer.
 				</p>
 
+				<div class="blog-img-container fade-out-dep" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
+					<img class="blog-img" src="../imgs/blog/hamburger.png" alt="hamburger">
+				</div>
 				<p class="fade-out-dep" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
-				On mobile we have a hamburger menu and the CSS transitions used are part of the Mobirise bootstrap library. While Mobirise was not used to create this website, it does have a lot of useful generated code, but it does sacrifice a lot flexibility. I guess that's what you get for just using the free components on it. However, out of curiosity the next website I build will be done entirely on Mobirise. That is, unless I need some thing special, but I will try to use Mobirise as much as possible.
+				Incorporating responsive design required a lot of research and careful consideration of how elements should be laid out. I became very familiar with media queries, which handle breakpoints thats could not be resolved using responsive design. The resume section in particular removes images when viewed on mobile. I made the decision to do this because on mobile the images would just look awkward and washout the the main elements of the resume. 
 				</p>
+				
+				<p class="fade-out-dep" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">Just compare this:</p>
+				
+				<div class="blog-img-container fade-out-dep" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
+					<img class="blog-img" src="../imgs/blog/clean_skills.png" alt="good css">
+				</div>
+
+				<p class="fade-out-dep" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom"> to this: </p>
+				
+				<div class="blog-img-container fade-out-dep" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
+					<img class="blog-img" src="../imgs/blog/dirty_skills.png" alt="bad css">
+				</div>
 
 				<p class="fade-out-dep" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
-				Now what remains is adding more cat photos. Yes, there are new ones since the last post. Updating this blog. And lastly, updating the Code page with project details, documentation, and funny quips because a future employer would probably be into that. Is this good enough for Imgur? Remember me? Is this enough cats? </p>
+				All that being said, there was a lot of code refactoring that needed be done. In some cases fixing one issue caused other issues down the line. I initially made the mistake of thinking about desktop only, and didn't even consider different desktop sizes, or other ways screen size could vary. Thus, there were a lot of fixed margins, padding, and sizing that needed to be remediated. The introduction of additional libraries caused name collisions in some cases and CSS styles were being overwritten. One such library was the <a id = "bacs-link" href="https://getbootstrap.com/" target="_blank">Bootstrap </a> library, which is amazing for things like photo galleries and hamburger menus. However, it has a lot of elements that have <code> !important </code> tags, which made things frustrating. In addition, to all of these, there were also changes that were made at the global level which messed with my overall layout. Tracking them all down trying to find the different stylesheets that controlled things like the menu, footer, and list items proved to be tedious, but overall helped increase my understanding of CSS, improve my layout, and make everything flow more smoothly.
+				</p>
+				<div class="blog-img-container fade-out-dep" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
+					<img class="blog-img" src="../imgs/blog/bootstrap.png" alt="bootstrap lib">
+				</div>
+				<p class="fade-out-dep" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
+				Overall it was a fun experience to work with Bootstrap and to layout a website that looks great on both desktop and mobile. I definitely think that things could have been done much better and more elegantly, but regardless I'm happy with the way things turned out. Especially with my sub-menu inside of my hamburger menu, just look at this simple thing of beauty:
+				</p>
+
+				<div class="blog-img-container fade-out-dep" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
+					<img class="blog-img" src="../imgs/blog/expanded_hamburger.png" alt="bootstrap lib">
+				</div>
+
+				<p class="blog-img-container fade-out-dep" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
+				If I'm being honest though, the code the generates that is kind of mess because I didn't like the Bootstrap defaults so I messed with the core library until I got what I wanted. The good thing about introducing this was that it forced me to rewrite the whole navigation menu, which ended up being much cleaner and didn't have any weird padding / sizing bugs. What helped the most with all of this was the Chrome Inspector because I could hightlight portions of the website and see what HTML and CSS scripts were affecting it. In addition, I could also see what was contributing to padding, margin, and borders, which really helped with cases where I unintentionally misaligned things by including padding where I didn't need any.
+				</p>
+
+				<div class="blog-img-container fade-out-dep" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
+					<img class="blog-img" src="../imgs/blog/inspector.png" alt="bootstrap lib">
+				</div>
+
+				<p class="fade-out-dep" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
+				Now what remains is actually adding content to the website. Definitely a lot more cat photos because Nibbler and Fry are precious, precious fur babies. This blog is actually starting to come along, and I'm planning on updating some of the posts currently on here. They were created in a bit a hurry just to get an idea of what the blog would look like overall, and so I could write the HTML and CSS to make things look like this website wasn't a 90s relic. At the moment, the Code page is lacking. Aside from some high-level lists of projects I haven't added anything useful like "how-to" guides, documention, or images. That will be coming after the blog is cleaned up. For now, everything can be summarized like this:</p>
+
+				<div class="blog-img-container fade-out-dep" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
+					<img class="blog-img" src="../imgs/blog/backend.jpg" alt="bootstrap lib">
+				</div>
+
+				<p>More like 6000... </p>
+
+
 			</div>
 		</div>	
 
@@ -202,11 +244,21 @@
 		</div>
 		<div class="post-container" data-aos="fade-up">
 			<h3 data-aos="fade-right" data-aos-duration="1000"> Deep Learning - January 2, 2019 </h3>
-			<div class="blog-post fade-out-dep" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
-				<p>So 2018 was a wild ride. Both professionally and personally. Python skills definitely leveled up significantly to the point where I almost feel like an actual programmer. And I finally got around to making a decent website with all the trimmings. And not to mention I welcome Fry and Nibbler into my home. Adorable little, sneaky bastards.</p>
+			<p data-aos="fade-right" data-aos-duration="1000"> <em>Updated: March 3, 2019 </em></p>
+			<div>
+				<p class="blog-post fade-out-dep" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
+				It's the new year and looking back, 2018 was a really great year for me both professionally and personally. My growth at work has been outstanding and the scope of my new project has allowed to really expand the develop my programming skills to point where I feel like an actual programmer, and not some Stack Overflow script kiddie. However, there's the old Reddit saying, "Copying code from Stack Overflow $1/Hour. Knowing what code to copy from Stack Overflow $100,000/year". Work aside, I also got around to finally making my own website, an idea that I had tossed around for about year before finally taking the time to buckle down learn some HTML/CSS and start building. I also contributed to PyPi last year, and I am still actively updating the packages with new features and bug fixes. These best part of year though was moving out of my college apartment, and welcoming Fry and Nibbler into my and Ada's lives. Those adorable, sneaky bastards have made our lives infinitely better, even though Fry won't stop trying to destroy my plants.
+				</p>
 
-				<p>The last 2 weeks of 2018 were spent trying to wrap my head around deep learning. I've always been fascinated by the topic, but never got around to learning anything about it. And the times I did try, I would get lost in Python I didn't understand yet. But now, thanks to the Deep Learning A - Z Udemy course, medium articles, MIT lectures on YouTube, and many other resources, I've started to fiddle around with some basic Neural Nets. However, performance has been very medicore because this Macbook Air can't handle much, and my Dell isn't that much better. </p>
+				<p class="blog-post fade-out-dep" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
+				Reflections aside, the last 2 weeks of 2018 were spent trying to wrap my head around Deep Learning. I've always been fascinated by the topic, but never really had the time to put into mastering it. The times I did try I would get lost in the Python syntax and libraries that I didn't had never used before like Numpy. However, sine I was able to really put a lot of hours into using and learning Python I was able to start focusing more on the concepts associated with Deep Learning, rather than trying to figure out what code like:
+				</p>
+					<code> {key: "Super Cool" for (key,value) in cool_animals.items() if cool_animals[key] == 'cats'} </code>
 
+				<p class="blog-post fade-out-dep" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
+				actually does. I used quite a resources, but the most helpful where the <a id="bacs-link"> Deep Learning A - Z Udemy </a> course, MIT lectures on YouTube, and a lot of Medium articles like the following [include list]. I've started to fiddle around with some basic Neural Nets. However, performance has been very medicore because this Macbook Air can't handle much, and my Dell isn't that much better. </p>
+
+				</p>
 				<p>I'd really like to get into Kaggle competitions and see if anything comes out of that. I'm hoping that my competitive nature will drive me to really dig deep in Neural Nets. And eventually I'd like to get started on creating my own rig for training networks. The powerlifting problem that's posed on Kaggle definitely blends two of my biggests interests. And I'd really like get into text, music, and image generation with some RNNs / GNNs.</p>
 
 				<p>Let's see what 2019 will bring. Hopefully fewer typos.</p>

@@ -207,6 +207,11 @@ main h1 {
   margin-left: auto;
 
 }
+.blog-img-container-sidebyside {
+  display: flex;
+
+}
+
 
 #bacs-link {
   text-decoration: none;
