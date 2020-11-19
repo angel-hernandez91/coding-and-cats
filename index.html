@@ -30,11 +30,18 @@
 			window.snowplow('newTracker', 'cf', 'webhooks.fivetran.com/snowplow/b9460c56-3b4b-4bcf-aef8-19fa5f0157d6', { // Initialize a tracker
 			  appId: 'cfe23a' ,
 			  cookieDomain: null,
-			  post: true,
-				discoverRootDomain: true,
-				cookSamesite: null
+			  post: true
 			});
 			window.snowplow('trackPageView');
+			
+			snowplow_name_here("newTracker", "sp", "webhooks.fivetran.com/snowplow/b9460c56-3b4b-4bcf-aef8-19fa5f0157d6", {
+			appId: "cfe23a",
+			platform: "web",
+			contexts: {
+			webPage: true,
+			performanceTiming: true
+			}
+			});
 		</script>
 		
 	</head>
