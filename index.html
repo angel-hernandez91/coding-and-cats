@@ -23,24 +23,17 @@
 	  	<link rel="stylesheet" href="./cats/assets/mobirise/css/mbr-additional.css" type="text/css">
 		
 		<script type='text/javascript'>
-			;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
-			p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
-			};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
-			n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,'script','//d1fc8wv8zag5ca.cloudfront.net/2.5.3/sp.js','snowplow'));
-			window.snowplow('newTracker', 'cf', 'webhooks.fivetran.com/snowplow/b9460c56-3b4b-4bcf-aef8-19fa5f0157d6', { // Initialize a tracker
-			  appId: 'cfe23a' ,
-			  cookieDomain: null,
-			  post: true
-			});
-			window.snowplow('trackPageView');
 			
-			snowplow_name_here("newTracker", "sp", "webhooks.fivetran.com/snowplow/b9460c56-3b4b-4bcf-aef8-19fa5f0157d6", {
-			appId: "cfe23a",
-			platform: "web",
-			contexts: {
-			webPage: true,
-			performanceTiming: true
-			}
+		 	snowplow_name_here("newTracker", "sp", "webhooks.fivetran.com/snowplow/b9460c56-3b4b-4bcf-aef8-19fa5f0157d6", {
+				appId: "cfe23a",
+				platform: "web",
+				discoverRootDomain: true,
+				  cookieName: "_sp_",
+				  cookieSameSite: "None",
+				contexts: {
+				webPage: true,
+				performanceTiming: true
+				}
 			});
 		</script>
 		
