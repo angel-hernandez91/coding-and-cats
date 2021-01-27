@@ -23,22 +23,24 @@
 	  	<link rel="stylesheet" href="./cats/assets/mobirise/css/mbr-additional.css" type="text/css">
 		
 		<script type='text/javascript'>
-			;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
-			p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
-			};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
-			n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,'script','https://d1fc8wv8zag5ca.cloudfront.net/2.5.3/sp.js','snowplow'));
-			
-			window.snowplow('newTracker', 'sp', 'webhooks.fivetran.com/snowplow/d517adf4-aca9-4e3d-8505-8f6a795c650a', { // Initialize a tracker
-			  appId: 'randomString' ,
-			  cookieDomain: null,
-			  crossDomainLinker: function (linkElement) {
-			    return true;
-			  },
-			  post: true
-			});
-			
-			snowplow('enableActivityTracking', 30, 10);
-			snowplow('trackPageView:sp');
+		(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+		p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+		};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+		n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,'script','//d1fc8wv8zag5ca.cloudfront.net/2.5.3/sp.js','snowplow'));
+		// Initialize a tracker
+		window.snowplow('newTracker', 'cf', 'webhooks.fivetran.com/snowplow/3627d104-abf1-46c7-be63-a5f23377dbdd', {
+		    appId: 'lms',
+		    cookieDomain: null,
+			discoverRootDomain: true,
+		    post: true,
+		    contexts: {
+			webPage: true
+		    } // need webpage context enabled to sessionize
+		});
+		window.snowplow('enableActivityTracking', 10, 10);  // page pings every 10 seconds
+		window.snowplow('trackPageView'); // track page views
+		window.snowplow('setUserId', '{{DL - User ID}}');// set the snowplow userid
+		window.snowplow('trackStructEvent', 'userProperty','classId','{{DL - class_id}}','',''); // custom structured event for class id
 		</script>
 		
 	</head>
